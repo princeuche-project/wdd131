@@ -13,7 +13,7 @@ body {
 }
 
 /* Main Container */
-.container {
+main {
     width: 80%;
     margin: 0 auto;
 }
