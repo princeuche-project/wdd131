@@ -146,20 +146,20 @@ h1 {
     background-color: #000000;
 }
 
-.resources ul {
+.pages ul {
     padding-left: 20px;
 }
 
-.resources li {
+.pages li {
     margin-bottom: 8px;
 }
 
-.resources a {
+.pages a {
     color: #1a5fb4;
     text-decoration: none;
 }
 
-.resources a:hover {
+.pages a:hover {
     text-decoration: underline;
 }
 
