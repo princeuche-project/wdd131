@@ -7,15 +7,20 @@
 
 /* Body */
 body {
-    font-family: "Segoe UI", Tahoma, sans-serif;
+
     background-color: #e9eef2;
     color: #333;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 /* Main Container */
 main {
     width: 80%;
     margin: 0 auto;
+    display: grid;
 }
 
 /* Header */
