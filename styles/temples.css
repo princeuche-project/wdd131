@@ -1,0 +1,129 @@
+/* Mobile First Design */
+
+:root {
+    --primary-color: #1e3a5f;
+    --secondary-color: #f4f4f4;
+    --accent-color: #d4a017;
+    --text-color: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menu-button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 0.75rem;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--accent-color);
+    color: black;
+    border-radius: 5px;
+}
+
+/* Hide Menu */
+
+.hide {
+    display: none;
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* GALLERY GRID */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    background: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
