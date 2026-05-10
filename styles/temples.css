@@ -19,7 +19,7 @@ body {
     color: var(--text-color);
 }
 
-/* HEADER */
+
 
 header {
     background-color: var(--primary-color);
@@ -45,7 +45,7 @@ header h2 {
     cursor: pointer;
 }
 
-/* NAVIGATION */
+
 
 nav {
     display: flex;
@@ -67,13 +67,13 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* Hide Menu */
+
 
 .hide {
     display: none;
 }
 
-/* MAIN */
+
 
 main {
     max-width: 1200px;
@@ -87,7 +87,7 @@ main h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* GALLERY GRID */
+
 
 .gallery {
     display: grid;
@@ -114,7 +114,7 @@ figcaption {
     font-weight: bold;
 }
 
-/* FOOTER */
+
 
 footer {
     background-color: var(--primary-color);
