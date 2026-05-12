@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S'MARIS DESIGNS</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ece8e4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+            font-family: 'Cormorant Garamond', serif;
+            color: #2d2118;
+        }
+
+        .poster {
+            width: 850px;
+            background: linear-gradient(to bottom, #f8f6f3, #f1ece7);
+            padding: 60px 70px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .poster::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at top left, rgba(255, 255, 255, 0.7), transparent 30%),
+                radial-gradient(circle at bottom right, rgba(212, 175, 55, 0.08), transparent 30%);
+            pointer-events: none;
+        }
+
+        .logo {
+            width: 340px;
+            margin: 0 auto 25px;
+            display: block;
+            position: relative;
+            top: 40px;
+            mix-blend-mode: darken;
+            background: transparent;
+
+        }
+
+        .intro-line {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 18px;
+            margin-bottom: 12px;
+        }
+
+        .intro-line span {
+            width: 120px;
+            height: 1px;
+            background: #caa44f;
+        }
+
+        .intro {
+            letter-spacing: 6px;
+            font-size: 24px;
+            color: #b38a2e;
+            font-weight: 500;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 76px;
+            letter-spacing: 2px;
+            color: #24160f;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .tagline {
+            font-size: 42px;
+            color: #b38a2e;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .divider {
+            width: 300px;
+            height: 1px;
+            background: #d4af37;
+            margin: 25px auto 35px;
+            position: relative;
+        }
+
+        .divider::after {
+            content: "✦";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: #f4f0eb;
+            padding: 0 12px;
+            color: #caa44f;
+            font-size: 18px;
+        }
+
+        .content {
+            font-size: 25px;
+            line-height: 1.6;
+            color: #3d2f24;
+        }
+
+        .content p {
+            margin-bottom: 28px;
+        }
+
+        .highlight {
+            font-weight: 700;
+            color: #1f140d;
+        }
+
+        .closing {
+            font-size: 32px;
+            margin-top: 20px;
+            color: #a77a1f;
+            font-weight: 600;
+        }
+
+        @media(max-width:900px) {
+
+            .poster {
+                width: 100%;
+                padding: 40px 30px;
+            }
+
+            .logo {
+                width: 250px;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            .tagline {
+                font-size: 28px;
+            }
+
+            .content {
+                font-size: 21px;
+            }
+
+            .intro {
+                font-size: 18px;
+            }
+
+            .intro-line span {
+                width: 70px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="poster">
+
+        <!-- Replace src with your logo image -->
+        <img src="images/Untitled design.png" alt="S'Maris Logo" class="logo">
+
+        <div class="intro-line">
+            <span></span>
+            <div class="intro">INTRODUCING</div>
+            <span></span>
+        </div>
+
+        <h1>S’MARIS DESIGNS</h1>
+
+        <div class="tagline">
+            A New Chapter. A Refined Vision.
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="content">
+
+            <p>
+                What started as a journey of passion, growth, and self-discovery has now evolved into something greater.
+            </p>
+
+            <p>
+                <span class="highlight">Introducing S’ MARIS DESIGNS</span> — a brand inspired by strength, purpose, and
+                a new beginning.
+            </p>
+
+            <p>
+                This is more than a comeback, it’s a transformation.
+            </p>
+
+            <p>
+                Our fashion brand is stepping into a new era with a clearer vision, elevated designs, and a stronger
+                commitment to quality and creativity. Over time, we’ve grown, learned, and evolved and now we’re
+                reflecting that growth in everything we create.
+            </p>
+
+            <p>
+                We are reintroducing ourselves with renewed passion, improved craftsmanship, and a deeper understanding
+                of style that speaks confidence, elegance, and individuality. Every piece is designed with intention, to
+                make you feel bold, beautiful, and unforgettable.
+            </p>
+
+            <p>
+                From breathtaking bridals to perfectly tailored custom-made dresses, from exclusive bespoke pieces to
+                statement asoebi and sharp, classy blazers.
+            </p>
+
+            <p>
+                Thank you for being part of our journey. The next chapter is here — and it’s bigger, better, and more
+                refined.
+            </p>
+
+            <div class="closing">
+                Stay tuned. The new era has officially begun. 💫
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
