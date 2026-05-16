@@ -1,8 +1,22 @@
-const currentYear = document.querySelector("#currentyear");
-const lastModified = document.querySelector("#lastModified");
+// const currentYear = document.querySelector("#currentyear");
+// const lastModified = document.querySelector("#lastModified");
 
-currentYear.textContent = new Date().getFullYear();
-lastModified.textContent = `Last Modified: ${document.lastModified}`;
+// currentYear.textContent = new Date().getFullYear();
+// lastModified.textContent = `Last Modified: ${document.lastModified}`;
+// document.getElementById("year").textContent = `© ${year} 2026 Uchenna Godstime CopyRight Reserved`;
+
+
+// Get current year
+const year = new Date().getFullYear();
+
+// Insert year into footer
+document.getElementById("year").textContent = `© 2026 Uchenna CopyRight Reserved`;
+
+// Get last modified date
+const lastModified = document.lastModified;
+
+// Insert last modified date
+document.getElementById("lastModified").textContent = `Last Modification: ${lastModified}`;
 
 const temperature = 8;
 const windSpeed = 10;
