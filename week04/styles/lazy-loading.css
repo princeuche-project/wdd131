@@ -1,0 +1,29 @@
+.main-container {
+    display: flex;
+    padding: 25px;
+    margin: 0 auto;
+    gap: 20px;
+    flex-direction: column;
+    width: 400px;
+}
+
+img {
+    width: 100%;
+    animation: fade 15s;
+    background: #0000;
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    1000% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+}
