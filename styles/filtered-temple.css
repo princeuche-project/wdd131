@@ -96,7 +96,7 @@ main h1 {
 }
 
 .temple-image {
-    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px #1e3a5f;
     border-radius: 8px;
     width: 80%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
