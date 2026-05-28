@@ -152,8 +152,8 @@ function displayTemples(filteredTemples) {
         image.alt = temple.templeName;
         image.width = 200;
         image.loading = "lazy";
-      
-       // image.style.borderRadius = "8px";
+
+        // image.style.borderRadius = "8px";
 
         image.classList.add("temple-image");
 
@@ -167,6 +167,8 @@ function displayTemples(filteredTemples) {
         gallery.appendChild(card);
     });
 }
+displayTemples(temples);
+
 
 document.querySelector("#home").addEventListener("click", () => {
     displayTemples(temples);
