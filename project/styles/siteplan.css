@@ -19,12 +19,20 @@ hr {
     margin: 35px 0;
     background: #1e3a5f;
 }
+
 /* h1,h2,h3{
     text-align: center;
     font-family: Poppins or Montserrat;
 } */
 
-ul, li{
+ul,
+li {
     text-align: center;
     list-style: none;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
 }
