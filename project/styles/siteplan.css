@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #1e3a5f;
+    --secondary-color: #f4f4f4;
+    --accent-color: #d4a017;
+    --text-color: #222;
+}
+
 body {
     max-width: 960px;
     margin: 0 auto;
@@ -10,8 +17,8 @@ body {
 div {
     display: block;
     margin: 0 auto;
-    background: steelblue;
-    color: white;
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 hr {
