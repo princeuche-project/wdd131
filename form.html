@@ -46,7 +46,7 @@
             <fieldset>
                 <legend>Product Review</legend>
                 <select name="productName" id="product" required>
-                    <option value="" disabled selected>Choose a Product &#9662;</option>
+                    <option value="" disabled selected>Select a Product &#9662;</option>
                 </select>
 
             </fieldset>
@@ -76,7 +76,10 @@
 
             <fieldset>
                 <legend>Written Review (Optional)</legend>
-                <textarea name="text" id="review"></textarea>
+                <label for="textarea">
+                    <textarea name="textarea" id="textarea"></textarea>
+
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Your Name (Optional)</legend>
@@ -85,7 +88,9 @@
                 </label>
             </fieldset>
 
-            <input type="submit" value="Post Review">
+            <label for="submitbtn">
+                <input type="submit" value="Post Review">
+            </label>
 
 
         </form>
