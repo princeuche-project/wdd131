@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
+    <meta name="author" content="John Doe">
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>HTML5 Start Site by Paul Cheney</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header>
+        <h1>Course Proposal</h1>
+        <h2>Designing Web Forms</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li class="active"><a href="#">Propose</a></li>
+            <li><a href="#">Winners</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Course Proposal Application</h1>
+        <form method="get" action="Thanks.html" class="wft">
+
+            <fieldset>
+                <legend>Applicant Information</legend>
+
+                <label for="first name">First Name*<input type="text" name="first name" id="first name"required></label>
+                <label for="last name">Last Name*<input type="text" name="last name" id="last name" required></label>
+                <label for="phone">Phone<input type="tel" name="phone" id="phone"></label>
+                <label for="email">Email*<input type="email" name="email" id="email" required></label>
+                <label for="website">Web Site<input type="url" name="web site" id="web"></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Information</legend>
+                <div>Audience</div>
+                <label><input type="radio" name="audience" value="beginner">Beginner</label>
+                <label><input type="radio" name="audience" value="intermadiate">Intermadiate</label>
+                <label><input type="radio" name="audience" value="advanced">Advanced</label>
+
+                <div>Sofware Needed</div>
+                <label><input type="checkbox" name="editing" value="yes">Photo Editing</label>
+                <label><input type="checkbox" name="coding" value="yes">Conding</label>
+                <label><input type="checkbox" name="process" value="yes">Preprocessor</label>
+                <label><input type="checkbox" name="client" value="yes">FTP Client</label>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Founding</legend>
+                <label>Anticipated Completion Date <input type="date" name="completeDate"></label>
+                <label> Course Subject:
+                    <select name="" id="">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="software">Soft Development</option>
+                        <option value="creative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="business">Business professional</option>
+                        <option value="security">Cyber Security</option>
+
+                    </select>
+
+                </label>
+                <label>How Many Authors <input type="number" name="authors"></label>
+
+            </fieldset>
+            <input type="submit" value="propose my course">
+
+
+        </form>
+
+
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        &copy; 2024 &bull; Paul Cheney &bull; 123-555-6789
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

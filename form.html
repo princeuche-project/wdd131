@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Uchenna Godstime Owuamanam" />
+    <meta name="description" content="A gallary of The Church of Jesus_Christ of Letter Days_Saints Temples." />
+
+    <title>Product Review</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <!-- <link rel="stylesheet" href="styles/filtered-temples-large.css"> -->
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+
+    <!-- <header>
+        <div class="header-top">
+            <h2>Temple Album</h2>
+
+            <button id="menu-button">&#9776;</button>
+        </div>
+
+        <nav id="nav-menu">
+            <a href="#" id="home">Home</a>
+            <a href="#" id="old">Old</a>
+            <a href="#" id="new">New</a>
+            <a href="#" id="large">Large</a>
+            <a href="#" id="small">Small</a>
+        </nav>
+    </header> -->
+
+    <main>
+        <h1>Product Review</h1>
+        <form action="review.html" method="get" class="container">
+            <fieldset>
+                <legend>Product Review</legend>
+                <select name="productName" id="product" required>
+                    <option value="">Choose a Product &#9662;</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset class="stars">
+                <legend>Overall Rating</legend>
+                <label for="fivestar"><input type="radio" id="fivestar" name="stars" value="5" required></label>
+                <label for="fourstar"><input type="radio" id="fourstar" name="stars" value="4" required></label>
+                <label for="threestar"><input type="radio" id="threestar" name="stars" value="3" required></label>
+                <label for="twostar"><input type="radio" id="twostar" name="stars" value="2" required></label>
+                <label for="onestar"><input type="radio" id="onestar" name="stars" value="1" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Date of Installation</legend>
+                <input type="date" id="date" name="date" required>
+            </fieldset>
+            <fieldset>
+                <legend>Which features did you find useful in the product?</legend>
+                <p><strong>Check all that apply</strong></p>
+
+                <label><input type="checkbox" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" name="easeofuse" value="yes">Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" name="design" value="yes">Design</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Written Review (Optional)</legend>
+                <textarea name="text" id="review"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Your Name (Optional)</legend>
+                <label for="name">
+                    <input type="text" name="yourname" id="yourname">
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Post Review">
+
+
+        </form>
+
+
+
+    </main>
+
+
+    <footer>
+
+        <p id="year">
+            <span></span>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+
+
+</body>
+
+</html>
