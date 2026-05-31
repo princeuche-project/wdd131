@@ -38,12 +38,14 @@
     </header> -->
 
     <main>
-        <h1>Product Review</h1>
+        <header>
+            <h1>Product Review</h1>
+        </header>
         <form action="review.html" method="get" class="container">
             <fieldset>
                 <legend>Product Review</legend>
                 <select name="productName" id="product" required>
-                    <option value="">Choose a Product &#9662;</option>
+                    <option value="" disabled selected>Choose a Product &#9662;</option>
                 </select>
 
             </fieldset>
@@ -65,10 +67,10 @@
                 <legend>Which features did you find useful in the product?</legend>
                 <p><strong>Check all that apply</strong></p>
 
-                <label><input type="checkbox" name="durability" value="yes">Durability</label>
-                <label><input type="checkbox" name="easeofuse" value="yes">Ease of Use</label>
-                <label><input type="checkbox" name="performance" value="yes">Performance</label>
-                <label><input type="checkbox" name="design" value="yes">Design</label>
+                <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" id="easeofuse" name="easeofuse" value="yes">Ease of Use</label>
+                <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
             </fieldset>
 
             <fieldset>
