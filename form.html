@@ -45,9 +45,14 @@
         <form action="review.html" method="get" class="container">
             <fieldset>
                 <legend>Product Review</legend>
-                <select name="productName" id="product" required>
+                <label for="product">
+                    <select name="productName" id="product" required>
+                        <option value="" disabled selected>Select a Product &#9662;</option>
+                    </select>
+                </label>
+                <!-- <select name="productName" id="product" required>
                     <option value="" disabled selected>Select a Product &#9662;</option>
-                </select>
+                </select> -->
 
             </fieldset>
 
@@ -62,7 +67,10 @@
 
             <fieldset>
                 <legend>Date of Installation</legend>
-                <input type="date" id="date" name="date" required>
+                <label for="date">
+                    <input type="date" id="date" name="date" required>
+
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Which features did you find useful in the product?</legend>
