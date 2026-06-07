@@ -14,3 +14,57 @@
     }
 
 }
+
+
+@media (max-width: 768px) {
+
+    .featured-recipe {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+
+    .featured-image {
+        width: 100%;
+    }
+
+    .featured-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .featured-text {
+        width: 100%;
+    }
+
+    .featured-text h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .featured-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .featured-text ul {
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .featured-text li {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .featured-text button {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 1.5rem auto 0;
+    }
+}
