@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Uchenna Godstime Owuamanam" />
+    <meta name="description" content="A gallary of The Church of Jesus_Christ of Letter Days_Saints Temples." />
+
+    <title>Healthy Life Nutrition</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <button id="menu-button">&#9776;</button>
+
+        <h1>Nutrition Basics</h1>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="nutrition.html">Nutrition Basics</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="mealplanning.html">Meal Planning</a>
+        </nav>
+    </header>
+
+
+    <div class="container">
+
+        <h2 class="section-title">What is Nutrition?</h2>
+
+        <p class="about-nutrition">
+            Nutrition is the process by which the body obtains and uses nutrients from food to support growth, energy
+            production,
+            tissue repair, and overall health. A nutritious diet provides essential nutrients such as carbohydrates,
+            proteins, fats,
+            vitamins, minerals, and water, all of which play important roles in maintaining bodily functions. Good
+            nutrition helps
+            strengthen the immune system, supports healthy development and improves physical and mental performance also
+            reduces the
+            risk of many diseases. Eating a balanced variety of foods, including fruits, vegetables, whole grains, lean
+            proteins,
+            and healthy fats. The key to achieving proper nutrition and maintaining a healthy lifestyle.
+        </p>
+
+        <br>
+
+        <h2 class="section-title">Food Groups</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Fruits</h3>
+                <p>Rich in vitamins, minerals, and fiber.</p>
+                <img src="images/fruit.jpg" alt="">
+            </div>
+
+            <div class="card">
+                <h3>Vegetables</h3>
+                <p>Essential nutrients with low calories.</p>
+                <img src="images/food1.jpg" alt="">
+            </div>
+
+            <div class="card">
+                <h3>Proteins</h3>
+                <p>Build and repair body tissues.</p>
+                <img src="images/protains.webp" alt="">
+            </div>
+
+            <div class="card">
+                <h3>Dairy</h3>
+                <p>Provides calcium and vitamin D.</p>
+                <img src="images/dairy.webp" alt="">
+            </div>
+
+        </div>
+
+        <br>
+
+        <h2 class="section-title">Make Choice of Essential Nutrients</h2>
+
+        <fieldset>
+            <legend>Essential Nutrients</legend>
+            <label for="nutrients">Choose a Nutrient:</label>
+
+            <select id="nutrients">
+                <option value="" disabled selected>Select a Preffered Nutrient &#9662;</option>
+                <option value="carbs">Carbohydrates</option>
+                <option value="proteins">Proteins</option>
+                <option value="fats">Healthy Fats</option>
+                <option value="vitamins">Vitamins</option>
+                <option value="minerals">Minerals</option>
+            </select>
+
+            <p id="message"></p>
+        </fieldset>
+
+    </div>
+
+   <div class="ibm">
+   <fieldset>
+    <legend>BMI Calculator</legend>
+    <h2></h2>
+    <label for="weight">Enter your Weight (kg)</label>
+    <input type="number" name="weight" id="weight">
+    <label for="height">Enter your Height (cm)</label>
+    <input type="number" name="height" id="height">
+    
+    <button onclick="calculateBMI()">
+        Calculate BMI
+    </button>
+    <p id="bmiResult"></p>
+   </fieldset>
+   
+   </div>
+
+    <section class="stats">
+
+        <div class="stat-box">
+            <h2>70%</h2>
+            <p>Water Content of Human Body</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>5+</h2>
+            <p>Daily Fruit & Vegetable Servings</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>8</h2>
+            <p>Recommended Hours of Sleep</p>
+        </div>
+
+    </section>
+
+    <fieldset class="newsletter">
+
+        <h2>Nutrition Newsletter</h2>
+
+        <p>Receive healthy eating tips and recipes.</p>
+
+        <input type="email" id="emailInput" placeholder="Enter your email">
+
+        <button onclick="subscribeNewsletter()">
+            Subscribe
+        </button>
+
+        <p id="subscribeMessage"></p>
+
+    </fieldset>
+
+    <footer>
+        <p id="year">
+            <span></span>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
