@@ -96,6 +96,7 @@ function subscribeNewsletter() {
     document.getElementById("emailInput").value = "";
 }
 
+
 const getNutrient = document.getElementById("nutrients");
 const message = document.getElementById("message");
 
@@ -132,15 +133,6 @@ getNutrient.addEventListener("change", () => {
             message.textContent = "";
     }
 });
-
-
-
-
-
-
-
-
-
 
 
 
