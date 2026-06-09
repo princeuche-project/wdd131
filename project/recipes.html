@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <script src="scripts/form.js" defer></script>
+    <script src="scripts/recipe.js" defer></script>
 </head>
 
 <body>
@@ -70,13 +71,35 @@
 
                 <article class="recipe-card">
                     <img src="images/salad.jpg" alt="Fresh Garden Salad">
+
                     <div class="recipe-content">
                         <h3>Fresh Garden Salad</h3>
                         <p>
                             A colorful mix of vegetables packed with vitamins and fiber.
                         </p>
-                        <button>View Recipe</button>
+                        <button class="view-recipe" data-recipe="Fresh Garden Salad Recipe:
+                        Ingredient:
+                        Lettuce
+                        Tomatoes
+                        Cucumbers
+                        Avocado
+
+                        Instructions:
+                        1. Wash and chop vegetables.
+                        2. Mix in a bowl.
+                        3. Add dressing and serve  
+                        ">View Recipe</button>
                     </div>
+                    <!-- <div id="recipeModal" class="modal" style="display: none;">
+
+                        <div id="modal-content">
+                            <span id="closeModal">&times;</span>
+                            <h2>Recipe Details</h2>
+                            <p id="recipeText"></p>
+
+                        </div>
+                        
+                    </div> -->
                 </article>
 
                 <article class="recipe-card">
@@ -86,7 +109,19 @@
                         <p>
                             Rich in whole grains and topped with fresh fruits.
                         </p>
-                        <button>View Recipe</button>
+                        <button class="view-recipe" data-recipe="Fresh Garden Salad Recipe:
+                                            Ingredient:
+                                            Lettuce
+                                            Tomatoes
+                                            Cucumbers
+                                            Avocado
+                    
+                                            Instructions:
+                                            1. Wash and chop vegetables.
+                                            2. Mix in a bowl.
+                                            3. Add dressing and serve  
+                                            ">View Recipe</button>
+
                     </div>
                 </article>
 
@@ -154,61 +189,6 @@
 
     </main>
 
-    <!-- <div class="container">
-        <input type="text" id="recipeSearch" placeholder="Search recipes..." onkeyup="searchRecipes()">
-
-        <h2 class="section-title">Breakfast</h2>
-
-        <div class="card">
-            <h3>Oatmeal Bowl</h3>
-            <p>
-                Ingredients:
-                Oats, banana, berries, honey.
-            </p>
-
-            <p>
-                Directions:
-                Cook oats, add fruit, drizzle honey.
-            </p>
-        </div>
-
-        <br>
-
-        <h2 class="section-title">Lunch</h2>
-
-        <div class="card">
-            <h3>Grilled Chicken Salad</h3>
-            <p>
-                Chicken breast, lettuce, tomato,
-                cucumber, olive oil dressing.
-            </p>
-        </div>
-
-        <br>
-
-        <h2 class="section-title">Dinner</h2>
-
-        <div class="card">
-            <h3>Baked Salmon & Vegetables</h3>
-            <p>
-                Salmon with roasted broccoli,
-                carrots, and sweet potatoes.
-            </p>
-        </div>
-
-        <div class="card recipe">
-            <h3>Oatmeal Bowl</h3>
-        </div>
-
-        <div class="card recipe">
-            <h3>Grilled Chicken Salad</h3>
-        </div>
-
-        <div class="card recipe">
-            <h3>Baked Salmon & Vegetables</h3>
-        </div>
-
-    </div> -->
 
 
     <footer>
