@@ -296,7 +296,7 @@ legend {
 
 .hero-text {
     position: relative;
-    z-index: 2px
+    z-index: 2;
 }
 
 img {
