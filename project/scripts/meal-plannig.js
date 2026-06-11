@@ -57,3 +57,17 @@ mealPlan.forEach(meal => {
 
     tableBody.appendChild(row);
 });
+
+
+
+let visitCount = localStorage.getItem("mealPlanningVisits");
+
+if (visitCount === null) {
+    visitCount = 0;
+}
+
+visitCount++;
+
+localStorage.setItem("mealPlanningVisits", visitCount);
+
+document.getElementById("visit-count").textContent = visitCount;
